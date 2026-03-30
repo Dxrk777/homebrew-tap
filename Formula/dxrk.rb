@@ -7,7 +7,7 @@ class Dxrk < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v000.01/dxrk-linux-amd64.gz"
-      sha256 "372aa45d9074884755fd7731cf6a28d04fa6fe55165bbdbfd40de371c187b65f"
+      sha256 "9a0de5dd8bf5527e1f1d0aba2356fcf7a5461bf344a4eae172aa7b6e8a56f206"
     end
   end
 
