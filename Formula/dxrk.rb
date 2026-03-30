@@ -4,23 +4,15 @@ class Dxrk < Formula
   version "000.01%"
   license "MIT"
 
-  on_macos do
+  on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v000.01/dxrk_000.01%25_darwin_amd64.tar.gz"
-      sha256 "TODO"
-    else
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v000.01/dxrk_000.01%25_darwin_arm64.tar.gz"
-      sha256 "TODO"
+      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v000.01/dxrk-linux-amd64.gz"
+      sha256 "372aa45d9074884755fd7731cf6a28d04fa6fe55165bbdbfd40de371c187b65f"
     end
   end
 
-  on_linux do
-    url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v000.01/dxrk_000.01%25_linux_amd64.tar.gz"
-    sha256 "TODO"
-  end
-
   def install
-    bin.install "dxrk"
+    bin.install "dxrk-linux-amd64" => "dxrk"
   end
 
   test do
