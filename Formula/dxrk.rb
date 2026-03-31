@@ -1,28 +1,28 @@
 class Dxrk < Formula
   desc "Dxrk Hex — Tu compañero digital 🔥"
   homepage "https://github.com/Dxrk777/Dxrk-Hex"
-  version "000.02%"
+  version "000.03%"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.2/dxrk_0.0.2_darwin_amd64.tar.gz"
-      sha256 "a0d1f6d38aed221c902761f87a67dd983912578b89ce94f3f205bf475e91a442"
+      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.3/dxrk_0.0.3_darwin_amd64.tar.gz"
+      sha256 "8d3dd89ebdec5ec21ef486c64e3f0b27d9fcab8e7c2eb7b413066a758794a0a7"
     end
     on_arm do
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.2/dxrk_0.0.2_darwin_arm64.tar.gz"
-      sha256 "4a2eec4fa25bc01f024e543ded4009c39c8a1297020108d4fea17b0949493b62"
+      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.3/dxrk_0.0.3_darwin_arm64.tar.gz"
+      sha256 "031e587da5cd7bbea34b803cff05869581519500fc88fa4fe35af5e2352f8dd5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.2/dxrk_0.0.2_linux_amd64.tar.gz"
-      sha256 "2f0246225471ad6994ae226826e378283820a3e3eae499ceff015085eb2c609a"
+      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.3/dxrk_0.0.3_linux_amd64.tar.gz"
+      sha256 "9d2159bc02c53f6cfb50d60ad7c6a0643518cb1843bdf65eea1ad869669f949d"
     end
     on_arm do
-      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.2/dxrk_0.0.2_linux_arm64.tar.gz"
-      sha256 "88c0faa7dd0d734179c33f053335619f5e8b03220925954d957e21d7f547f60f"
+      url "https://github.com/Dxrk777/Dxrk-Hex/releases/download/v0.0.3/dxrk_0.0.3_linux_arm64.tar.gz"
+      sha256 "511f15af598b7f0900c15cfb69b354a4ff86ea96ab9507eeaae090b80e637c4f"
     end
   end
 
